@@ -1,0 +1,43 @@
+MY SQL COMMANDS
+
+1.show database;  							-To know what are all the database
+
+2.create database dbname; 						-To create a new database 
+
+3.use dbname;							-To establish connection
+
+4.show tables;							-To know tables present in databse
+
+5.create table tablename (
+column name datatype constraints            					- To create a table
+);				 
+
+6.desc tablename ;
+	(or)                                        					 -To know structure of the table
+describe tablename;
+
+
+7.insert into tablename (column name1,column name2 ...) values (rec1),(re2).....;
+								-To insert values in table
+insert into tablename values (rec1),(re2);
+
+8.desc tablename 							-To describe tble
+
+9.alter table tablename add column_name datatype constraints;		-To add a column
+
+10.select * from table_name ; 						-To display all the records in table
+
+11.alter table tablename drop column  column_name;				-To delete the column
+
+12. alter table tablename change oldcolumn_name newcolumn_name datatype;            -To change the column name
+
+13. alter table tablename modify column_name datatype (or) constraints	;	-To change the data type and constraints
+
+14.rename table table_name to new table_name;				-To rename table
+
+15.truncate table table_name ;						-To delete the all the records in table(structure does not affect)
+
+16.drop table table_name;						-To  drop the table
+
+17.drop database db_name;						-To drop the database
+
